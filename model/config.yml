@@ -1,0 +1,48 @@
+# Package overview
+package_name : BA_booking_classification
+
+# Data files
+raw_data_file : customer_booking.csv
+
+test_size: 0.2
+
+# Variables
+target : booking_complete
+
+pipeline_name: BA_classification_model
+pipeline_save_file: BA_classification_model_output_v
+
+features :
+  - num_passengers
+  - sales_channel
+  - purchase_lead
+  - length_of_stay
+  - flight_hour
+  - flight_day
+  - route
+  - wants_extra_baggage
+  - wants_preferred_seat
+  - wants_in_flight_meals
+  - flight_duration
+
+
+# to set the random seed
+random_state: 0
+
+categorical_vars :
+  - sales_channel
+  - flight_day
+  - route
+
+numerical_vars :
+  - num_passengers
+  - purchase_lead
+  - length_of_stay
+  - flight_hour
+  - wants_extra_baggage
+  - wants_preferred_seat
+  - wants_in_flight_meals
+  - flight_duration
+
+
+

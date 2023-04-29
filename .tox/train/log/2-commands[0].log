@@ -1,0 +1,30 @@
+name: train
+run_id: commands[0]
+env USERPROFILE: C:\Users\Lenovo
+env SYSTEMROOT: C:\Windows
+env PATHEXT: .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+env PROGRAMFILES(X86): C:\Program Files (x86)
+env PROCESSOR_ARCHITECTURE: AMD64
+env NUMBER_OF_PROCESSORS: 8
+env COMSPEC: C:\Windows\system32\cmd.exe
+env PROGRAMFILES: C:\Program Files
+env TEMP: C:\Users\Lenovo\AppData\Local\Temp
+env TMP: C:\Users\Lenovo\AppData\Local\Temp
+env SYSTEMDRIVE: C:
+env PROGRAMDATA: C:\ProgramData
+env PATH: C:\Users\Lenovo\PycharmProjects\pythonProject13\.tox\test_package\Scripts;C:\Users\Lenovo\PycharmProjects\pythonProject13\venv/Scripts;C:\Users\Lenovo\anaconda3;C:\Users\Lenovo\anaconda3\Library\mingw-w64\bin;C:\Users\Lenovo\anaconda3\Library\usr\bin;C:\Users\Lenovo\anaconda3\Library\bin;C:\Users\Lenovo\anaconda3\Scripts;C:\Users\Lenovo\anaconda3\bin;C:\Users\Lenovo\anaconda3\condabin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Users\Lenovo\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Lenovo\AppData\Local\Programs\Python\Python310;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;.
+env PYTHONHASHSEED: 925
+env PIP_DISABLE_PIP_VERSION_CHECK: 1
+env PYTHONIOENCODING: utf-8
+env PYTHONPATH: .
+env TOX_ENV_NAME: train
+env TOX_WORK_DIR: C:\Users\Lenovo\PycharmProjects\pythonProject13\.tox
+env TOX_ENV_DIR: C:\Users\Lenovo\PycharmProjects\pythonProject13\.tox\test_package
+env VIRTUAL_ENV: C:\Users\Lenovo\PycharmProjects\pythonProject13\.tox\test_package
+env COLUMNS: 180
+env LINES: 10
+metadata pid: 7612
+cwd: C:\Users\Lenovo\PycharmProjects\pythonProject13
+allow: C:\Users\Lenovo\PycharmProjects\pythonProject13\.tox\test_package\Scripts\*
+cmd: python model/train_pipeline.py
+exit_code: 0
