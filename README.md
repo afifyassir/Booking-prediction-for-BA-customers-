@@ -29,11 +29,6 @@ To deploy the app, follow these steps:
 
 To use the app, send a POST request to the `/predict` endpoint with a JSON payload containing the customer data. The app will return a prediction of whether the customer will book a flight or not.
 
-For example:
-
-curl -X POST http://localhost:8000/predict -d ‘{“age”: 35, “income”: 75000}’
-
-
 ## Testing
 
 To run the tests, install Tox and run `tox` in the root directory of the repository. This will run the tests using Pytest and check that everything is working correctly.
