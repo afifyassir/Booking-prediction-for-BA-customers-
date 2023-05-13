@@ -37,7 +37,6 @@ async def predict(input_data: MultipleDataInputs) -> Any:
 
     input_df = pd.DataFrame(jsonable_encoder(input_data.inputs))
 
-
     logger.info(f"Making prediction on inputs: {input_data.inputs}")
     results = await make_prediction(input_data=input_df.replace({np.nan: None}))
 
