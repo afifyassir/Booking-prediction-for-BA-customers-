@@ -14,16 +14,8 @@ The app is built using several tools and libraries, including:
 - Docker: for containerization
 - Tox: for testing and automation
 - Pytest: for testing
-
-## Deployment
-
-To deploy the app, follow these steps:
-
-1. Clone this repository to your local machine.
-2. Install Docker on your machine if you don't have it already.
-3. Build the Docker image by running `docker build -t ml-app .` in the root directory of the repository.
-4. Run the Docker container by running `docker run -p 8000:8000 ml-app`.
-5. The app should now be running and accessible at `http://localhost:8000`.
+- flake8: for code linting
+- black: for code formatting
 
 ## Usage
 
